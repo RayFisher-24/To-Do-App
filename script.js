@@ -34,6 +34,7 @@ function removeList(currElement) {
     }
 }
 
+
 function editList(currElement) {
     if (currElement.textContent == "Done") {
         currElement.textContent = "Edit"
